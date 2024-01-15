@@ -1,0 +1,147 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    /* background-image: url("images/ab.jpg"); */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   background-color: darkblue;
+  
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.header{
+    margin-top: 10%;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    
+}
+
+.inp{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.inputs{
+    width: 300px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 1.5em 1.87rem;
+    border-radius: 0.5em;
+    gap: 10px;
+   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+input{
+    border: none;
+   
+    width: 150px;
+    height: 30px;
+}
+button{
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+
+.out{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.output{
+
+    width: 300px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    
+    gap: 10px;
+    
+}
+.year{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    background-color:black;
+    box-shadow: rgba(0, 0, 0, 0.938) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.timer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   color: silver;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+.content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+.footer{
+
+    width: 300px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: silver;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+.green{
+    color: green;
+    font-weight: bolder;
+}
+.silver{
+    color: silver;
+}
